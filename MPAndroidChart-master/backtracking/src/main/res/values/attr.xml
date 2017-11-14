@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Topbar">
+        <attr name="maintitle" format="string" />
+        <attr name="titlemainTextColor" format="color" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="lefttext" format="string" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="leftBackgroud" format="reference|color" />
+        <attr name="leftTextSize" format="dimension" />
+        <attr name="righttext" format="string" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightBackgroud" format="reference|color" />
+        <attr name="rightTextSize" format="dimension" />
+    </declare-styleable>
+    
+    <attr name="item_count" format="integer"></attr>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="item_count" />
+    </declare-styleable>
+    
+    
+     <declare-styleable name="NumericBoxProperties">
+        <attr name="android:inputType"/>
+        <attr name="android:editable" />
+    </declare-styleable>
+    
+     <!-- 自定义主页按钮动画 -->
+       <declare-styleable name="RippleBackground">
+        <attr name="rb_color" format="color" />
+        <attr name="rb_strokeWidth" format="dimension"/>
+        <attr name="rb_radius" format="dimension"/>
+        <attr name="rb_duration" format="integer"/>
+        <attr name="rb_rippleAmount" format="integer"/>
+        <attr name="rb_scale" format="float"/>
+        <attr name="rb_type" format="enum">
+            <enum name="fillRipple" value="0"/>
+            <enum name="strokeRipple" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

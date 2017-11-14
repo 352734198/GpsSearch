@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    tools:context="com.robin.backtracking.BackTracking">
+
+    <include
+        android:id="@+id/main_topbar"
+        layout="@layout/weight_topbar"
+
+        ></include>
+
+
+    <TextView
+        android:id="@+id/model_change"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_noraml"
+        android:layout_marginLeft="@dimen/margin"
+        android:gravity="center"
+        android:text="切换模式(信号模式)"/>
+    <LinearLayout
+        android:id="@+id/btn_liner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/preview_button"
+            android:layout_width="wrap_content"
+            android:text="@string/start_monitor"
+            android:textColor="@color/main_text_color"
+            android:background="@drawable/btn_drawable"
+            android:textSize="@dimen/text_size_small"
+            android:layout_height="match_parent" />
+
+
+       <!-- <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:text="停止保存"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/main_text_color"
+            android:background="@drawable/btn_drawable"
+            android:layout_height="match_parent" />-->
+
+    </LinearLayout>
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/audio_chart"
+        android:layout_margin="15dp"
+        android:layout_above="@id/btn_liner"
+        android:layout_below="@id/main_topbar"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/text_size_small"
+        android:layout_height="match_parent" />
+</RelativeLayout>

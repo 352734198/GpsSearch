@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="dark_gray_l">#8F8F8F</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="blue">#2A00FF</color>
+    <color name="green">#f0f0</color>
+    <color name="yellow">#FFFEA4</color>
+    <color name="red">#FF0000</color>
+    <color name="titlebar_bg">#B0C4DE</color>
+    <color name="toolbar_bg">#4169E1</color>
+    <color name="unfocused">#cccccccc</color>
+    <color name="pressed">#fff22fff</color>
+    <color name="selected">#fff33fff</color>
+    <color name="focused">#ffff44ff</color>
+    <color name="viewfinder_mask">#80000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="disable">#999999</color>
+    <color name="nocolor">#00ffffff</color>
+    <color name="orange">#EEAD0E</color>
+    <color name="radiobg_press">#43859d</color>
+    <color name="radiobg_normal">#555555</color>
+    <color name="light_blue">#6BA9ED</color>
+    <color name="grey_small">#000000</color>
+    <color name="login_click">#7b4e00</color>
+
+
+
+    <color name="dialogbackground">#3d88de</color>
+    <color name="dialog_head">#5b98e6</color>
+    <color name="tabhost_item_select">#99BD4C</color>
+    <color name="tabhost_item_line_select">#33b5e5</color>
+    <color name="sliding_layout_start">#1a1f25</color>
+    <color name="sliding_layout_press">#31363a</color>
+    <color name="payment_titlebar_background">#0085e2</color>
+    <color name="titlebar_background">#303538</color>
+    <color name="lakala_click">#0C4D77</color>
+    <color name="lakala_click_01">#4091C1</color>
+
+    <color name="titlebar_bg_new">#303538</color>
+
+    <color name="pay_suc">#26BA49</color>
+
+    <color name="pay_bg">#F4F4F4</color>
+
+    <color name="single_color">#F4F4F4</color>
+    <color name="single_color_nopress">#ffffff</color>
+    <color name="iamge_bar">#00CD00</color>
+    <color name="text_black">#000000</color>
+    <color name="gray_conupon_press">#d9d9d9</color>
+    <color name="red_text">#ff0000</color>
+    <color name="orange_color">#ff6600</color>
+
+    <color name="radio_select">#618bed</color>
+    <color name="radio_normal">#ffffff</color>
+
+    <color name="transparent">#00000000</color>
+
+
+    <color name="corner_border_color">#F3F4F3</color>
+
+    <!-- 首页上方三个环形进度条文字的颜色，浅黑 -->
+    <color name="home_text_light_black">#333333</color>
+
+    <!-- 自定义Dialog信息部分文字的颜色 -->
+    <color name="msg_color">#FFFFFFFF</color>
+
+    <!-- 自定义Dialog中button点击时的颜色 -->
+    <color name="btn_press_color">#FFa5281b</color>
+    <!-- 自定义Dialog中button未点击时的颜色 -->
+    <color name="btn_unpress_color">#FFc0392b</color>
+
+    <!-- 黑色字体颜色 -->
+    <color name="textcolor_black">#000000</color>
+
+    <!-- 保险蓝色字体颜色 -->
+    <color name="surance_blue">#3598da</color>
+
+    <!-- 首页上方边框的颜色，深灰 -->
+    <color name="home_border_dark_gray">#E1E1E1</color>
+
+
+    <!-- 计算器里面的颜色值 -->
+    <color name="dark_gray">#172e37</color>
+    <color name="lakala_text_01_d">#232832</color>
+    <color name="lakala_text_01_s">#232832</color>
+    <color name="lakala_text_02_d">#525972</color>
+    <color name="lakala_text_02_s">#525972</color>
+
+    <color name="payment_calculator_confirm_start">#ea9606</color>
+    <color name="payment_calculator_confirm_press">#ee9f19</color>
+
+
+
+
+
+    <color name="white">#ffffff</color>
+    <color name="text_blue_color">#435c95</color>
+    <color name="black">#000000</color>
+    <color name="text_light_color">#d9d9d9</color>
+    <color name="text_blue_gray_color">#3493D3</color>
+    <color name="black2">#ffeeeeee</color>
+
+    <color name="text_gray">#d9d9d9</color>
+    <color name="greeny">#ff11aca6</color>
+    <!--窗体颜色 -->
+    <color name="windows_color">#F5F5F5</color>
+    <color name="gray">#ff808080</color>
+    <color name="trans_parent">#90000000</color> <!--透明度-->
+
+    <color name="swipe_listview">#f2f2f2</color>
+
+    <!-- 主要背景色 -->
+    <color name="backgroup_color">#f5f5f9</color>
+    <color name="view_line_gray">#dddddd</color>
+    <!--主文字颜色  -->
+    <color name="main_text_color">#3a3a3a</color>
+    <!-- 辅助文字颜色 -->
+    <color name="assist_text_color">#999999</color>
+
+    <!-- 结账 现金的颜色-->
+    <color name="payment_cash_color">#ed724c</color>
+    <!-- 结账微信支付字体颜色 -->
+    <color name="payment_weachat_color">#00c800</color>
+    <!-- 结账支付宝支付字体颜色 -->
+    <color name="payment_alipay_color">#06a2ea</color>
+    <!-- 结账红色  -->
+    <color name="payment_red_color">#ff3e3e</color>
+    <!-- 结账黄色  -->
+    <color name="payment_yellow_color">#FFB257</color>
+
+
+    <!-- 成功绿色 -->
+    <color name="success_green">#00cc00</color>
+
+
+    <!--  标签页的颜色-->
+    <color name="color_tag_text_normal">#666666</color>
+    <color name="color_tag_text_activated">#FFB257</color>
+    <color name="color_addtag_text_normal">#FFB257</color>
+    <color name="color_addtag_text_activated">#ffffff</color>
+    <color name="color_addtag_edit">#666666</color>
+    <color name="color_addtag_stork_9">#dddddd</color>
+
+
+
+    <color name="gray_telephone">#c4c4c4</color>
+
+    <color name="coupon_blue_color">#5bbfe9</color>
+    <color name="coupon_green_color">#78c06e</color>
+    <color name="coupon_black_color">#3a3a3a</color>
+
+
+    <!-- 表单灰色 -->
+    <color name="form_gray_hint">#cccccc</color>
+
+    <!-- 表单灰色 -->
+    <color name="time_button_green">#01cc00</color>
+
+
+    <color name="rippelColor">#0099CC</color>
+
+    <color name="date_choose_color">#ED9625</color>
+
+    <!--折现图 线的颜色  -->
+    <color name="static_line_color">#82E8FF</color>
+
+
+    <!--侧边栏选中的颜色 -->
+    <color name="menu_fragemnt_color">#E5E5E5</color>
+
+    <color name="xzbar_bg">#80000000</color>
+    <color name="xzbar_whilte_transparent">#00ffffff</color>
+    <color name="xzbar_whilte">#ffffffff</color>
+</resources>

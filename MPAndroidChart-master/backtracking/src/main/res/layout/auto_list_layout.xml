@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:layout_height="45dp">
+
+    <TextView
+        android:id="@+id/text_starttime"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:textSize="@dimen/text_size_small"
+        android:layout_marginLeft="16dp"
+        android:gravity="center|left"
+        android:textColor="@color/main_text_color"
+        android:layout_height="match_parent" />
+
+
+    <TextView
+        android:id="@+id/text_distance"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:textSize="@dimen/text_size_small"
+        android:layout_marginLeft="16dp"
+        android:gravity="center|left"
+        android:textColor="@color/main_text_color"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/dbvalue"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/main_text_color"
+        android:textSize="@dimen/text_size_small"
+        android:layout_marginLeft="16dp"
+        android:gravity="center|left"
+        android:layout_height="match_parent" />
+</LinearLayout>

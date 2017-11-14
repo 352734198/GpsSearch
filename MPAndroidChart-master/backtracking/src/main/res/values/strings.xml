@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">无田GPS探测器</string>
+    <string name="cancel">取消</string>
+    <string name="start_monitor">开始监控</string>
+    <string name="stop_monitor">停止监控</string>
+    <string name="notice_text">开始监控后将会删除上次保存的数据，是否开始监控？</string>
+    <string name="main_text">探测器</string>
+    <string name="see_data">查看数据详情</string>
+    <string name="data_list">数据列表</string>
+    <string name="signal">信号值(0:无  1：有)</string>
+    <string name="time">开始时间   —   结束时间</string>
+    <string name="back">返回</string>
+
+</resources>

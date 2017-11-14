@@ -1,0 +1,18 @@
+<com.robin.bean.Topbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/text_blue_color"
+    android:gravity="center"
+    custom:leftBackgroud="@drawable/basic_arrow_back"
+    custom:leftTextColor="@color/white"
+    custom:lefttext="@string/back"
+    custom:rightBackgroud="@null"
+    custom:rightTextColor="@color/white"
+    custom:righttext=""
+    custom:maintitle=""
+    android:paddingLeft="@dimen/marginLeft"
+    android:paddingRight="@dimen/marginRight"
+    custom:titlemainTextColor="@color/white"
+    >
+</com.robin.bean.Topbar>

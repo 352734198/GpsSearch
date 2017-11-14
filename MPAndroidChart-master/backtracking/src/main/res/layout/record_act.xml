@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/list_topbar"
+        layout="@layout/weight_topbar"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center|left"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/main_text_color"
+            android:textSize="@dimen/text_size_noraml_15"
+            android:text="@string/time"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center|left"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/main_text_color"
+            android:textSize="@dimen/text_size_noraml_15"
+            android:text="检测距离(S)"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:textColor="@color/main_text_color"
+            android:textSize="@dimen/text_size_noraml_15"
+            android:text="@string/signal"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ListView
+       android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/record_listview"
+        android:layout_width="match_parent"
+        android:listSelector="#00000000"
+        android:scrollbars="none"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

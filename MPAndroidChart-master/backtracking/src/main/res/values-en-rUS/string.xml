@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Explorer</string>
+    <string name="cancel">Cancel</string>
+    <string name="start_monitor">Start Monitor</string>
+    <string name="stop_monitor">Stop Monitor</string>
+    <string name="notice_text">Start monitoring will delete the last saved data, whether to begin monitoring?</string>
+    <string name="main_text">Explorer</string>
+    <string name="see_data">View data</string>
+    <string name="data_list">Data list</string>
+    <string name="signal">Signal value(0:No  1：Yew)</string>
+    <string name="time">Start time - end time</string>
+    <string name="back">Back</string>
+</resources>
